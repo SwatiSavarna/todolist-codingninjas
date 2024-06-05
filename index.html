@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="css">
+    <title>To-do List</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="card-top">
+                <input type="text" placeholder="Type your todo list" id="input-search-bar" >
+                <button class="search-button" onclick="addtask()">&#x1F50D; </button>
+                
+            
+            </div>
+            <span id="left">&#10003; Complete all tasks</span>
+            <span id="right">Clear Completed</span>
+            <hr class="hr">
+            <ul id="list-container">
+                
+            </ul>
+         
+            <p id="item-count">Number of items: 0</p>
+        </div>
+      
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
